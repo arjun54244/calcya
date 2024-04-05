@@ -11,15 +11,33 @@ export const metadata = {
   // other metadata
 };
 
-export default function Home() {
+// export default function Home() {
+//   return (
+//     <>
+//       <ScrollUp />
+//       <Hero />
+//       <Features />
+//       <Video />
+//       <AboutSectionOne />
+//       <Contact />
+//     </>
+//   );
+// }
+
+import React from 'react'
+
+const Home = () => {
   return (
     <>
-      <ScrollUp />
+       <ScrollUp />
       <Hero />
       <Features />
       <Video />
       <AboutSectionOne />
       <Contact />
     </>
-  );
+  )
 }
+
+export default Home
+
